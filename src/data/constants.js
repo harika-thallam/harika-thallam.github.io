@@ -292,7 +292,7 @@ export const education = [
     school: "Indiana University, Bloomington",
     date: "Aug 2023 - May 2025",
     grade: "3.7/4",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+    desc: "After working in the industry for six years, I decided to step out of my comfort zone and return to college to pursue a Master's degree at Indiana University. My goal is to deepen my knowledge in systems and networks through rigorous coursework and hands-on projects. Serving as an Associate Instructor and participating in various on-campus activities has enriched my experience, allowing me to interact with individuals from diverse cultural backgrounds. As I approach the completion of my Master's degree, I am committed to further enhancing both my technical and interpersonal skills.",
     degree: "Masters in Computer Science",
   },
   {
@@ -301,8 +301,8 @@ export const education = [
     school: "Gitam University",
     date: "June 2013 - May 2017",
     grade: "9.35/10",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "B.Tech in Computer Science and Enigneering",
+    desc: "Graduating as the gold medalist of my batch, my bachelor's degree was an incredibly enriching experience. I developed a keen interest in systems, delving deeply into cloud and backend technologies. My final year project on face recognition using Azure and Android provided a foundational understanding of distributed systems and AI. Serving as the secretary of ISTE and a core member of the ACM student chapter allowed me to hone my leadership skills. An internship at HP gave me my first real-world exposure to software engineering, further deepening my passion for cloud technologies. These experiences have solidified my commitment to advancing in the field and continuously exploring innovative solutions.",
+    degree: "Bachelors in Technology, Computer Science and Enigneering",
   },
 ];
 

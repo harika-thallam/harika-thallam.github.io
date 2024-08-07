@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { education } from "../../data/constants";
-import EducationCardNew from "../cards/EducationCard";
+import EducationCard from "../cards/EducationCard";
 
 const Container = styled.div`
   margin-top: 100px;
@@ -52,12 +52,11 @@ const Education = () => {
     <Container id="Education">
       <Title>Education</Title>
       <Desc style={{ marginBottom: "40px" }}>
-        My education has been a journey of self-discovery and growth. My
-        educational details are as follows.
+        Passion for problem-solving and logical reasoning drove me to earn degrees in Computer Science. Here are more details.
       </Desc>
       <Wrapper>
         {education.map((edu, index) => (
-          <EducationCardNew key={`education-${index}`} education={edu} />
+          <EducationCard key={`education-${index}`} education={edu} />
         ))}
       </Wrapper>
     </Container>
