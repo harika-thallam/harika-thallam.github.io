@@ -277,7 +277,39 @@ export const education = [
     degree: "Bachelors in Technology, Computer Science and Enigneering",
   },
 ];
-
+export const testimonials = [
+  {
+    text: "manages her time very well and therefore creates value for the customer every single day, highly consistently and reliably",
+    name: "Markus Thurner",
+    designation: "Director Of Technology,Cimpress",
+    link: "https://www.linkedin.com/in/harika-thallam/details/recommendations/?detailScreenTabIndex=0#:~:text=On-,Harika%20constantly,-learns%20new%20technologies",
+  },
+  {
+    text: "she is fast learner and is always ready to pick up something new out of her comfort zone, like she picked up some of the UI tasks on reactJs and delivered them as fast as any of the UI developer",
+    name: "Sowmya Manchanda",
+    designation: "Lead Software Engineer,Cimpress",
+    link: "https://www.linkedin.com/in/harika-thallam/details/recommendations/?detailScreenTabIndex=0#:~:text=On-,Harika%20is%20the%20most%20organised,-peer%20i%20have",
+  },
+  {
+    text: "Harika is an excellent teammate. While collaborating closely with her on a greenfield project for the past year, I gained an appreciation for her technical skills.",
+    name:"Bjarki Sigurosson",
+    designation: "Senior Software Engineer,Cimpress",
+    link: "https://www.linkedin.com/in/harika-thallam/details/recommendations/?detailScreenTabIndex=0#:~:text=On-,Harika%20is%20an%20excellent%20teammate.,-While%20collaborating%20closely",
+  },
+  {
+    text: "she has been an asset to our project working on our cloud services as well as services to run on-prem in containers",
+    name:"Katie Hannaford",
+    designation: "Principal Product Owner, Aveva",
+    link: "https://www.linkedin.com/in/harika-thallam/details/recommendations/?detailScreenTabIndex=0#:~:text=On-,Harika%20is%20an%20excellent%20teammate.,-While%20collaborating%20closely",
+  },
+  {
+    text: "She was always willing to take on any task, and took any struggles of the project in her stride.",
+    name:"Niel Hubbard",
+    designation: "Senior Software Engineer, Aveva",
+    link: "https://www.linkedin.com/in/harika-thallam/details/recommendations/?detailScreenTabIndex=0#:~:text=On-,Harika%20was%20always,-a%20pleasure%20to",
+  },
+  
+];
 export const projects = [
   {
     id: 11,

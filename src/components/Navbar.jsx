@@ -164,6 +164,7 @@ const Navbar = () => {
           <NavLink onClick={() => handleNavLinkClick('Skills')} to="#Skills">Skills</NavLink>
           <NavLink onClick={() => handleNavLinkClick('Experience')} to="#Experience">Experience</NavLink>
           <NavLink onClick={() => handleNavLinkClick('Education')} to="#Education">Education</NavLink>
+          <NavLink onClick={() => handleNavLinkClick('Testimonials')} to="#Testimonials">Testimonials</NavLink>
           <NavLink onClick={() => handleNavLinkClick('Contact')} to="#Contact">Contact</NavLink>
         </NavItems>
 
@@ -180,6 +181,9 @@ const Navbar = () => {
             </NavLink>
             <NavLink onClick={() => handleNavLinkClick('Education')} to="#Education">
               Education
+            </NavLink>
+            <NavLink onClick={() => handleNavLinkClick('Testimonials')} to="#Testimonials">
+              Testimonials
             </NavLink>
             <NavLink onClick={() => handleNavLinkClick('Contact')} to="#Contact">
               Contact
