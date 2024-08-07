@@ -10,7 +10,7 @@ export const Bio = {
     "With 6 years of experience as a skilled software engineer, I’ve excelled in creating sophisticated cloud-based solutions tailored to the needs of enterprises. As I work towards a master’s degree in computer science at IU, I’m eager to fuse my practical industry insights with advanced academic knowledge. I’m actively pursuing opportunities for internships and full-time positions where I can harness my adeptness at collaborating across functions and technical prowess to effectively spearhead and accomplish multi-million dollar technology ventures.",
   github: "https://github.com/harika-thallam",
   resume:
-    "https://drive.google.com/file/d/1-ba-OMtnXfSaZKRWVj9QAVw__mtL-61m/view?usp=drive_link",
+    "https://drive.google.com/file/d/1-ba-OMtnXfSaZKRWVj9QAVw__mtL-61m/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/harika-thallam/",
   //twitter: "https://twitter.com/RishavChanda",
   // insta: "https://www.instagram.com/harika_thallam/",
@@ -183,105 +183,77 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Engineer Intern",
-    company: "Neurobit",
-    date: "June 2023 - Nov 2023",
-    desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
+    img: "data:image/png;base64,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",
+    company: "Indiana University, Bloomington",
+    date: "Dec 2023 - May 2025",
+    roles:[
+      {
+        designation: "Associate Instructor for P466",
+        descriptions: [
+          "Regularly interacted with students to collect timely feedback and pinpoint areas for enhancement.",
+          "Enhanced the quality of course materials and assignments by integrating industry insights.",
+          "Facilitated after-class study sessions to address student queries and reinforce course concepts."
+        ]
+      },
+      {
+        designation: "Tech Peer Advisor",
+        descriptions: [
+          "Assisted students with interview preparation and recruitment in the tech industry, boosting their career readiness.",
+          "Organized spring semester Tech fairs, significantly enhancing student employment opportunities.",
+          "Elevated Luddy School's LinkedIn presence, attracting more recruiters and companies.",
+          "Coordinated various events on behalf of Luddy School to enhance recruitment efforts and outcomes."
+        ]
+      },
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "DevOps & Fullstack Engineering Intern",
-    company: "Flipr Inovations Pvt. Ltd.",
-    date: "Aug 2023 - Oct 2023",
+    img: "data:image/png;base64,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",
+    //role: "DevOps & Fullstack Engineering Intern",
+    company: "Cimpress Pvt. Ltd.",
+    date: "Dec 2021 - Jul 2023",
     desc: "Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring.",
-    skills: [
-      "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Portainer",
-      "Nginx",
-      "JavaScript",
-      "TypeScript",
-      "Node Js",
-      " Next Js",
+    roles:[
+      {
+        designation: "Senior Software Engineer",
+        techStack: "AWS (S3, Lambda, Cloudwatch, DynamoDB, SNS, ECR, Fargate, CloudFormation), TypeScript, Node, React, Terraform, GraphQL",
+        descriptions: [
+          "Crafted highly scalable, well-tested, and performant microservices following the RESTful API design for streamlining order management, driving a revenue of $10 million with 20+ customer onboarding instances.",
+          "Developed a comprehensive disaster recovery plan through infrastructure backups, making the system resilient and fault-tolerant, resulting in a 10% increase in availability.",
+          "Implemented a sandbox environment for isolated feature testing, improving developer experience by 30% and operational reliability by 25%.",
+          "Introduced a CDN layer for static content caching, reducing page load times by 60%.",
+          "Collaborated with cross-functional teams to enable EU order shipping, resulting in an additional $5 million in sales."
+        ]
+      },
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-    role: "Android Developer Intern",
-    company: "Rudraksha Welffare Foundation",
-    date: "June 2021 - Oct 2021",
-    desc: "• Built RudraShakti - Astrologer App, with MVVM Architecture using Java and Android Studio integrating Firebase SDK. Created One to One video call integration with Socket.IO and Firebase cloud functions and integrated with Retrofit. Created Low Level Design and converted Figma design to XML code.",
-    skills: [
-      "Android",
-      "Java",
-      "Kotlin",
-      "XML",
-      "Node Js",
-      "Cloud Firestore",
-      "Firebase",
-      "Figma",
+    img: "data:image/png;base64,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",
+    //role: "Android Developer Intern",
+    company: "Aveva LLP",
+    date: "June 2017 - Nov 2021",
+    roles:[
+      {
+        designation: "Senior Software Engineer",
+        techStack: ": Azure (App service,CosmosDB,Monitoring,IOT Edge,functions),Terraform, Docker,gRPC,Asp.Net WebApi, .Net Core, C#",
+        descriptions: [
+          "Strengthened the test suite with unit, adapter, and integration tests, increasing test coverage to 95%.",
+          "Resolved claims bottlenecks with an IoT Edge-based propagation solution, achieving 50X data transfer speed",
+          "Streamlined microservices deployment with CI/CD pipelines in Bamboo and Azure DevOps for uninterrupted production deployment and rollback.",
+          "Conducted workshops for product demonstrations, putting agile principles into play, attended by prominent Aveva customers including KBR, Shell and Mc Dermott attracting a $1 million in investment",
+        ]
+      },
+      {
+        designation: "Software Engineer",
+        techStack: "AWS(S3,DynamoDb,Lambda,SSM,Cloudwatch,CloudFormation),Serverless,Typescript,Node,C#,C++, Bitbucket, Git",
+        descriptions: [
+          "Instituted a monitoring and alert system, ensuring swift action during outages.",
+          "Eradicated performance troubles of various UI forms in the products by implementing optimal search techniques leading to 10X faster search results",
+          "Troubleshooted, debugged and fixed several issues while migrating the monolith Database solution to cloud based large-scale distributed system leading to 30X more performant products.",
+        ]
+      },
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
-  },
-  {
-    id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Fullstack Externship",
-    company: "Flipr",
-    date: "June 2023 - July 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Docker",
-      "AWS",
-      "MongoDB",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
-  },
-  {
-    id: 4,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-    role: "Android Developer",
-    company: "DSC KIIT",
-    date: "Nov2021 - Present",
-    desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
-    skills: [
-      "Leadership",
-      "Mobile Application Development",
-      "Kotlin",
-      "XML",
-      "Figma",
-    ],
-  },
-  {
-    id: 5,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Open Source Contributor ",
-    company: "GirlScript Summer of Code",
-    date: "May 2023 - Present",
-    desc: "Contributed to different open-source projects and learn from industry experts",
   },
 ];
 
